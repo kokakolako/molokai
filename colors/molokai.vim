@@ -1,12 +1,6 @@
-
 " Vim color file
-"
-" Author: Tomas Restrepo <tomas@winterdom.com>
-"
-" Note: Based on the monokai theme for textmate
-" by Wimer Hazenberg and its darker variant
-" by Hamish Stuart Macpherson
-"
+" Author: Niklas Köhler <niklas.koehler@live.de>
+" Note: Slightly modified molokai colorscheme (from Tomas Restrepo)
 
 hi clear
 
@@ -29,102 +23,102 @@ endif
 
 
 hi Boolean         guifg=#AE81FF
-hi Character       guifg=#E6DB74
+hi Character       guifg=#80FF00
 hi Number          guifg=#AE81FF
-hi String          guifg=#E6DB74
-hi Conditional     guifg=#F92672               gui=bold
+hi String          guifg=#80FF00
+hi Conditional     guifg=#FF0090               gui=bold
 hi Constant        guifg=#AE81FF               gui=bold
-hi Cursor          guifg=#000000 guibg=#F8F8F0
-hi iCursor         guifg=#000000 guibg=#F8F8F0
+hi Cursor          guifg=#101010 guibg=#F8F8F0
+hi iCursor         guifg=#101010 guibg=#F8F8F0
 hi Debug           guifg=#BCA3A3               gui=bold
-hi Define          guifg=#66D9EF
+hi Define          guifg=#4EB4FA
 hi Delimiter       guifg=#8F8F8F
 hi DiffAdd                       guibg=#13354A
 hi DiffChange      guifg=#89807D guibg=#4C4745
 hi DiffDelete      guifg=#960050 guibg=#1E0010
 hi DiffText                      guibg=#4C4745 gui=italic,bold
 
-hi Directory       guifg=#A6E22E               gui=bold
-hi Error           guifg=#E6DB74 guibg=#1E0010
-hi ErrorMsg        guifg=#F92672 guibg=#232526 gui=bold
-hi Exception       guifg=#A6E22E               gui=bold
+hi Directory       guifg=#66AA11               gui=bold
+hi Error           guifg=#80FF00 guibg=#1E0010
+hi ErrorMsg        guifg=#FF0090 guibg=#232526 gui=bold
+hi Exception       guifg=#66AA11               gui=bold
 hi Float           guifg=#AE81FF
-hi FoldColumn      guifg=#465457 guibg=#000000
-hi Folded          guifg=#465457 guibg=#000000
-hi Function        guifg=#A6E22E
-hi Identifier      guifg=#FD971F
+hi FoldColumn      guifg=#465457 guibg=#101010
+hi Folded          guifg=#465457 guibg=#101010
+hi Function        guifg=#66AA11
+hi Identifier      guifg=#C47F2C
 hi Ignore          guifg=#808080 guibg=bg
-hi IncSearch       guifg=#C4BE89 guibg=#000000
+hi IncSearch       guifg=#FF4000 guibg=#101010
 
-hi Keyword         guifg=#F92672               gui=bold
-hi Label           guifg=#E6DB74               gui=none
-hi Macro           guifg=#C4BE89               gui=italic
-hi SpecialKey      guifg=#66D9EF               gui=italic
+hi Keyword         guifg=#FF0090               gui=bold
+hi Label           guifg=#80FF00               gui=none
+hi Macro           guifg=#FF4000               gui=italic
+hi SpecialKey      guifg=#4EB4FA               gui=italic
 
-hi MatchParen      guifg=#000000 guibg=#FD971F gui=bold
-hi ModeMsg         guifg=#E6DB74
-hi MoreMsg         guifg=#E6DB74
-hi Operator        guifg=#F92672
+hi MatchParen      guifg=#101010 guibg=#C47F2C gui=bold
+hi ModeMsg         guifg=#80FF00
+hi MoreMsg         guifg=#80FF00
+hi Operator        guifg=#FF0090
 
 " complete menu
-hi Pmenu           guifg=#66D9EF guibg=#000000
+hi Pmenu           guifg=#4EB4FA guibg=#101010
 hi PmenuSel                      guibg=#808080
 hi PmenuSbar                     guibg=#080808
-hi PmenuThumb      guifg=#66D9EF
+hi PmenuThumb      guifg=#4EB4FA
 
-hi PreCondit       guifg=#A6E22E               gui=bold
-hi PreProc         guifg=#A6E22E
-hi Question        guifg=#66D9EF
-hi Repeat          guifg=#F92672               gui=bold
+hi PreCondit       guifg=#66AA11               gui=bold
+hi PreProc         guifg=#66AA11
+hi Question        guifg=#4EB4FA
+hi Repeat          guifg=#FF0090               gui=bold
 hi Search          guifg=#FFFFFF guibg=#455354
 " marks
-hi SignColumn      guifg=#A6E22E guibg=#232526
-hi SpecialChar     guifg=#F92672               gui=bold
+hi SignColumn      guifg=#66AA11 guibg=#232526
+hi SpecialChar     guifg=#FF0090               gui=bold
 hi SpecialComment  guifg=#7E8E91               gui=bold
-hi Special         guifg=#66D9EF guibg=bg      gui=italic
+hi Special         guifg=#4EB4FA guibg=bg      gui=italic
 if has("spell")
     hi SpellBad    guisp=#FF0000 gui=undercurl
     hi SpellCap    guisp=#7070F0 gui=undercurl
     hi SpellLocal  guisp=#70F0F0 gui=undercurl
     hi SpellRare   guisp=#FFFFFF gui=undercurl
 endif
-hi Statement       guifg=#F92672               gui=bold
+hi Statement       guifg=#FF0090               gui=bold
 hi StatusLine      guifg=#455354 guibg=fg
 hi StatusLineNC    guifg=#808080 guibg=#080808
-hi StorageClass    guifg=#FD971F               gui=italic
-hi Structure       guifg=#66D9EF
-hi Tag             guifg=#F92672               gui=italic
+hi StorageClass    guifg=#C47F2C               gui=italic
+hi Structure       guifg=#4EB4FA
+hi Tag             guifg=#FF0090               gui=italic
 hi Title           guifg=#ef5939
 hi Todo            guifg=#FFFFFF guibg=bg      gui=bold
 
-hi Typedef         guifg=#66D9EF
-hi Type            guifg=#66D9EF               gui=none
+hi Typedef         guifg=#4EB4FA
+hi Type            guifg=#4EB4FA               gui=none
 hi Underlined      guifg=#808080               gui=underline
 
 hi VertSplit       guifg=#808080 guibg=#080808 gui=bold
 hi VisualNOS                     guibg=#403D3D
 hi Visual                        guibg=#403D3D
 hi WarningMsg      guifg=#FFFFFF guibg=#333333 gui=bold
-hi WildMenu        guifg=#66D9EF guibg=#000000
+hi WildMenu        guifg=#4EB4FA guibg=#101010
 
 hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
 if s:molokai_original == 1
    hi Normal          guifg=#F8F8F2 guibg=#272822
-   hi Comment         guifg=#75715E
+   hi Comment         guifg=#9999AA
    hi CursorLine                    guibg=#3E3D32
-   hi CursorLineNr    guifg=#FD971F               gui=none
+   hi CursorLineNr    guifg=#C47F2C               gui=none
    hi CursorColumn                  guibg=#3E3D32
    hi ColorColumn                   guibg=#3B3A32
    hi LineNr          guifg=#BCBCBC guibg=#3B3A32
-   hi NonText         guifg=#75715E
-   hi SpecialKey      guifg=#75715E
+   hi NonText         guifg=#9999AA
+   hi SpecialKey      guifg=#9999AA
 else
    hi Normal          guifg=#F8F8F2 guibg=#1B1D1E
    hi Comment         guifg=#7E8E91
    hi CursorLine                    guibg=#293739
-   hi CursorLineNr    guifg=#FD971F               gui=none
+   hi CursorLineNr    guifg=#C47F2C               gui=none
    hi CursorColumn                  guibg=#293739
    hi ColorColumn                   guibg=#232526
    hi LineNr          guifg=#465457 guibg=#232526
